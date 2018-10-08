@@ -78,7 +78,7 @@ def player_stats (player)
       if player == person
         
       end
-      
+      return stats
     end
   end
 end
