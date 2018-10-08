@@ -76,8 +76,9 @@ def player_stats (player)
   game_hash.each do |loc, team_data|
     team_data[:players].each do |person, stats|
       if player == person
-        return stats
+        
       end
+      
     end
   end
 end
